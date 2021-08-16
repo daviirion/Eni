@@ -1,0 +1,141 @@
+
+header{
+    width: 960px;
+    margin: 0 auto;
+}
+.emblema{
+    float: left;
+    width: 150px;
+}
+h1{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(185, 185, 179);
+    font-weight: bold;
+}
+nav{
+    text-align: center;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+h2{
+    background-color: rgb(255, 255, 89);
+    text-align: center;
+}
+.melhorp{
+    float: left;
+    width: 300px;
+}
+.semanal{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.semanal ul li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgb(185, 185, 179);
+}
+.semanal img{
+    width: 150px;
+    height: 150px;
+}
+.semanal p{
+    top: 0px;
+}
+.sobre{
+    margin-top: 270px;
+}
+.inicio{
+    margin-top: 100px;
+}
+.chef img{
+    width: 500;
+    text-align: center;
+}
+.a1 ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.a1 ul{
+    text-align: center;
+}
+.psemana img{
+    width: 500px;
+    height: 400px;
+}
+.psemana ul li{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+    display: block;
+    margin-top: 30px;
+}
+.psemana nav{
+    border: 2px solid blue;
+    padding: 15px;
+    background-color: rgb(185, 185, 179);
+    font-weight: bold;
+    width: 150px;
+    margin-left: 40%;
+}
+.contbox{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.a{
+    width: 50%;
+    text-align: left;
+}
+form{
+    font-size: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+label{
+    font-weight: bold;
+    margin-left: 20px;
+}
+fieldset{
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 50%;
+}
+input,
+textarea,
+select{
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cor{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+}
+.dadospessoais{
+    float: left;
+}
+.enderecoformulario{
+    float: left;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}

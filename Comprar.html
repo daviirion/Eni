@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="css/Estilo.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="emblema" src="img/emblema.png">
+        </div>
+        <div>
+            <h1>Eni Refeições</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="Sobre.html">Sobre Nós</a></li>
+                <li><a href="Cardapio.html">Cardápio</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>    
+        </div>
+    </header>
+        <div class="container">
+            <hr>
+            <div>
+                <h2>Compras</h2>
+                <fieldset class="pedido">
+                    <legend>Pedido</legend>
+                    <div>
+                        <form action="recebe.php">
+                            <label for="pergunta">Qual Prato deseja?</label>
+                            <br>
+                            <input type="radio" name="pergunta" value="seg"> Segunda - Caseira
+                            <br>
+                            <input type="radio" name="pergunta" value="ter"> Terça - Leve
+                            <br>
+                            <input type="radio" name="pergunta" value="qua"> Quarta - Toscana
+                            <br>
+                            <input type="radio" name="pergunta" value="qui"> Quinta - Strognoff
+                            <br>
+                            <input type="radio" name="pergunta" value="sex"> Sexta - Galeto
+                            <br>
+                            <input type="radio" name="pergunta" value="sab"> Sábadov - Minuta Cheff
+                            <br>
+                            <label for="observação">Informe se quer algum incremento:</label>
+                            <textarea name="observacao" rows="2" cols="50"></textarea>
+                            <br>
+                            <label for="quantidade">Quantidade:</label>
+                            <input type="text" id="quantidade">
+                            <br>
+                            <nav>
+                                <ul>
+                                    <li><nav>Concluir</nav></li>
+                                </ul>
+                            </nav> 
+                        </form>
+                    </div>
+                </fieldset>
+            </div>
+            <footer>
+                <h2>contato</h2>
+                <div class="a1">
+                    <ul class="bb">
+                        <li>Fone: (55) 3232-3232</li>
+                        <li>E-mail: Melhor.escolha@gmail.com</li>
+                        <li>Instagram: @Chef_Eni</li>
+                    </ul>
+                </div>
+                <hr>
+            </footer>
+        </div>
+</body>
+</html>
